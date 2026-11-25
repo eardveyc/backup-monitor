@@ -26,3 +26,11 @@ chmod +x backup.sh monitor.sh
 
 ## Sample log output
 (paste a few lines from logs/monitor.log here)
+
+## Quick install
+```bash
+git clone https://github.com/eardveyc/backup-monitor.git
+cd backup-monitor
+sudo ./install.sh your_username
+```
+This installs dependencies, creates the user if needed, copies the scripts, and schedules the cron jobs.
